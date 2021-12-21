@@ -201,7 +201,7 @@ plt.title(f"Venn Diagram for groups {groups[0]}, {groups[1]}, {groups[2]}, type:
 fname = f"{N}_{groups[0]}_{groups[1]}_{groups[2]}_{T}"
 
 #save figure to file
-plt.savefig("out/fname.pdf")
+plt.savefig(f"out/{fname}.pdf")
 
 #create csv with data
 d = {
