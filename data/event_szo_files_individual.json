@@ -1,0 +1,128 @@
+{
+  "C01.*": {
+    "2": ["AA", "BB", "CC", "DD"],
+    "6": ["ABCDCB"],
+    "7": ["ABADADC", "BADCDAB"],
+    "8": ["ADBDCDCB", "BCADADAB", "CDACDCDB"],
+    "9": ["ACDCDCDCB"]
+  },
+  "C02.*": {
+    "2": ["AA", "BB", "CC", "DD"],
+    "7": ["ADCBDBA", "BCDADBC", "CBDBDAB"],
+    "8": ["ACDCDCBC", "BDCADCDB"]
+  },
+  "C03.*": {
+    "2": ["AA", "BB", "CC", "DD"],
+    "7": ["ABCDBCA", "ACBDADB", "ADACDCA", "CBCBADC", "DBADBDB", "DCBDCAB"],
+    "8": ["ACABCADC", "ADCDBADC"]
+  },
+  "C04.*": {
+    "2": ["AA", "BB", "CC", "DD"],
+    "6": ["ABDBCA", "BCADBA"],
+    "7": ["ACDBDBA", "ADBDCAB", "ADBDCAC", "ADCDBCB", "BCADBDA"]
+  },
+  "C05.*": {
+    "2": ["AA", "BB", "CC", "DD"],
+    "6": ["BACACA"],
+    "7": ["ABCDCDB", "ACBDCDB", "CADCDAB"]
+  },
+  "C06.*": {
+    "2": ["AA", "BB", "CC", "DD"],
+    "7": ["ACBADCB", "ADCBACA", "BCBDCAD", "CDCBABD", "DACBCDB"],
+    "8": ["ACBCBDCA", "BCBDBABC"]
+  },
+  "C07.*": {
+    "2": ["AA", "BB", "CC", "DD"],
+    "6": ["ADABAD", "DACADB"],
+    "7": ["DBCDACD"],
+    "8": ["ABDCDCDB", "BDBCBCBC"],
+    "9": ["ADCDCDCDA"]
+  },
+  "C08.*": {
+    "2": ["AA", "BB", "CC", "DD"],
+    "7": ["ABCACAB", "BACACDB", "BDADBDC", "DADBABD"]
+  },
+  "C09.*": {
+    "2": ["AA", "BB", "CC", "DD"],
+    "7": ["ADCBCDB", "ADCDCAB", "CACBCDB"],
+    "8": ["DCDACDCB"],
+    "9": ["BCDBDCDCA"]
+  },
+  "C10.*": {
+    "2": ["AA", "BB", "CC", "DD"],
+    "7": ["DBCDCAB"],
+    "9": ["CBDCDCDCA"]
+  },
+  "C11.*": {
+    "2": ["AA", "BB", "CC", "DD"],
+    "6": ["BCABAC", "DABCBC"],
+    "7": ["BADADBA", "BCADBDB"]
+  },
+  "C12.*": {
+    "2": ["AA", "BB", "CC", "DD"],
+    "6": ["ADBCDB"],
+    "7": ["BACDADC"]
+  },
+  "C13.*": {
+    "2": ["AA", "BB", "CC", "DD"],
+    "6": ["DABCDB"],
+    "7": ["BCADCAB", "DACBCAB", "DADABAD"]
+  },
+  "C14.*": {
+    "2": ["AA", "BB", "CC", "DD"],
+    "7": ["ACBDCDA"],
+    "8": ["ACDACDBD"],
+    "9": ["ACDBCDCDB"]
+  },
+  "C15.*": {
+    "2": ["AA", "BB", "CC", "DD"],
+    "6": ["ADCBCA"],
+    "7": ["BCBCDBA"],
+    "8": ["BDCDCDBA"],
+    "9": ["ACACDCDCB"]
+  },
+  "C16.*": {
+    "2": ["AA", "BB", "CC", "DD"],
+    "5": ["BCACB"],
+    "7": ["CADADAC", "CBDCDBC", "CDABDBA", "DBADCDC"],
+    "9": ["BDADADADC"]
+  },
+  "C17.*": {
+    "2": ["AA", "BB", "CC", "DD"],
+    "7": ["ABDCDCA", "CABDBDC"],
+    "8": ["CDADADAB", "CDCDADAB"]
+  },
+  "C18.*": {
+    "2": ["AA", "BB", "CC", "DD"],
+    "7": ["ACDBDAB", "CADADBC"]
+  },
+  "C19.*": {
+    "2": ["AA", "BB", "CC", "DD"]
+  },
+  "C20.*": {
+    "2": ["AA", "BB", "CC", "DD"],
+    "7": ["ACDBCDA", "CBCADCA", "CDCDBAC"],
+    "8": ["ADBADCDA"]
+  },
+  "C22.*": {
+    "2": ["AA", "BB", "CC", "DD"],
+    "7": ["ABABDCA", "ABCDBAB", "BABACDA", "CADCBDA", "DADCADA", "DADCBDA"]
+  },
+  "C23.*": {
+    "2": ["AA", "BB", "CC", "DD"],
+    "7": ["ACDBADC"]
+  },
+  "C24.*": {
+    "2": ["AA", "BB", "CC", "DD"],
+    "7": ["ACADCBD", "CBDBDAB", "DADCABA"],
+    "8": ["BCBDCDBA"]
+  },
+  "C25.*": {
+    "2": ["AA", "BB", "CC", "DD"],
+    "7": ["BCACADB", "BCDACBD", "CBCACAD"]
+  },
+  "C26.*": {
+    "2": ["AA", "BB", "CC", "DD"],
+    "6": ["ACADBA", "ADACBA"]
+  }
+}
