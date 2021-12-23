@@ -49,7 +49,7 @@ def all_set_count( set1, set2, set3, map1, map2, map3, inds ):
     for ngram in all_set:
         #for each ngram, check if it exists in all inds; if so, update count
         for i in inds:
-            if ngram not in map1 or ngram not in map2 or ngram not in map3: 
+            if ngram not in map1 or ngram not in map2 or ngram not in map3:
                 continue
             if i in map1[ngram] and i in map2[ngram] and i in map3[ngram]:
                 counts[ngram] += 1
@@ -93,6 +93,8 @@ def one_set_count( set1, map1, three_set, two_set1, two_set2 ):
 
 #return top n occurring ngrams in list of ngrams
 def top( grams_cnt, q ):
+    if q == 0:
+        return [ t[0] for t in grams_cnt.most_common()]
     return [ t[0] for t in grams_cnt.most_common()][:q]
 
 #parse args
@@ -103,7 +105,7 @@ parser.add_argument('G2', metavar='G2', help='Group 2 of groups {MW, Ver, Vis, e
 parser.add_argument('G3', metavar='G3', help='Group 3 of groups {MW, Ver, Vis, ec/eo}')
 parser.add_argument('T', metavar='T', help='Type of type {clock, event, peak}')
 parser.add_argument('F', metavar='F', help='File containing SZO data')
-parser.add_argument('-Q', metavar='TopQ', type=int, help='Present top Q occuring (default: 5)', default=5)
+parser.add_argument('-Q', metavar='TopQ', type=int, help='Present top Q occuring (default: 5)', default=0)
 parser.add_argument('-R', metavar='Run', help='Specify run of the data to use {1, 2, 3} (default: 1)', default=1)
 parser.add_argument('-S', metavar='Suffix', help='Specify suffix of the data to use {1, 2} (default: *)', default='*')
 parser.add_argument('-I', metavar='Inds', help='Specify individuals {1,...,26} (default: *)', nargs='+', default='*')
@@ -218,7 +220,7 @@ max_len = 0
 for ngrams in d.values():
     max_len = max( max_len, len(ngrams) )
 for k,v in d.items():
-    v.extend([""] * (max_len-len(v))) 
+    v.extend([""] * (max_len-len(v)))
 
 df = pd.DataFrame(data=d)
 print("\nSUMMARY OF VENN DIAGRAM")
